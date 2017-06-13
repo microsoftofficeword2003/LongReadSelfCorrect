@@ -148,7 +148,7 @@ m4trace:configure.ac:4: -1- AC_SUBST_TRACE([target_alias])
 m4trace:configure.ac:4: -1- m4_pattern_allow([^target_alias$])
 m4trace:configure.ac:5: -1- AM_INIT_AUTOMAKE([foreign])
 m4trace:configure.ac:5: -1- m4_pattern_allow([^AM_[A-Z]+FLAGS$])
-m4trace:configure.ac:5: -1- AM_AUTOMAKE_VERSION([1.13.4])
+m4trace:configure.ac:5: -1- AM_AUTOMAKE_VERSION([1.15])
 m4trace:configure.ac:5: -1- AC_REQUIRE_AUX_FILE([install-sh])
 m4trace:configure.ac:5: -1- AC_SUBST([INSTALL_PROGRAM])
 m4trace:configure.ac:5: -1- AC_SUBST_TRACE([INSTALL_PROGRAM])
@@ -345,6 +345,7 @@ m4trace:configure.ac:12: -1- m4_pattern_allow([^CC$])
 m4trace:configure.ac:12: -1- AC_SUBST([ac_ct_CC])
 m4trace:configure.ac:12: -1- AC_SUBST_TRACE([ac_ct_CC])
 m4trace:configure.ac:12: -1- m4_pattern_allow([^ac_ct_CC$])
+m4trace:configure.ac:12: -1- AC_REQUIRE_AUX_FILE([compile])
 m4trace:configure.ac:12: -1- AC_SUBST([CCDEPMODE], [depmode=$am_cv_CC_dependencies_compiler_type])
 m4trace:configure.ac:12: -1- AC_SUBST_TRACE([CCDEPMODE])
 m4trace:configure.ac:12: -1- m4_pattern_allow([^CCDEPMODE$])
@@ -404,10 +405,10 @@ m4trace:configure.ac:21: -1- m4_pattern_allow([^HAVE_CLOCK_GETTIME$])
 m4trace:configure.ac:21: -1- AH_OUTPUT([HAVE_CLOCK_GETTIME], [/* clock_getttime found */
 @%:@undef HAVE_CLOCK_GETTIME])
 m4trace:configure.ac:24: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
-You should run autoupdate.], [../../lib/autoconf/general.m4:2687: AC_TRY_LINK is expanded from...
+You should run autoupdate.], [../../lib/autoconf/general.m4:2689: AC_TRY_LINK is expanded from...
 ../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
-../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
-../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+../../lib/autoconf/general.m4:2033: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2054: AC_CACHE_CHECK is expanded from...
 m4/m4_ax_openmp.m4:70: AX_OPENMP is expanded from...
 configure.ac:24: the top level])
 m4trace:configure.ac:24: -1- AC_DEFINE_TRACE_LITERAL([HAVE_OPENMP])
